@@ -149,7 +149,7 @@ public class MainActivity extends AppCompatActivity {
                 getData();
             }
         });
-        //getJsonData();
+        getJsonData();
 //        try {
 //            delteStudentByName("Alex");
 //        } catch (IOException e) {
