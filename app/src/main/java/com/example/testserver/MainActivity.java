@@ -150,20 +150,20 @@ public class MainActivity extends AppCompatActivity {
             }
         });
         getJsonData();
-//        try {
-//            delteStudentByName("Alex");
-//        } catch (IOException e) {
-//            e.printStackTrace();
-//        }
-//        insertInto("Alext","23");
-//        List<Student> studentList1 = new ArrayList<>();
-//        for(int i = 0;i<6;i++){
-//            Student student = new Student();
-//            student.setName("Alex"+i);
-//            student.setAge(String.valueOf(Integer.valueOf("23")+i));
-//            studentList1.add(student);
-//        }
-       // addMoreStudents(studentList1);
+        try {
+            delteStudentByName("Alex");
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        insertInto("Alext","23");
+        List<Student> studentList1 = new ArrayList<>();
+        for(int i = 0;i<6;i++){
+            Student student = new Student();
+            student.setName("Alex"+i);
+            student.setAge(String.valueOf(Integer.valueOf("23")+i));
+            studentList1.add(student);
+        }
+        addMoreStudents(studentList1);
     }
 
     /**
